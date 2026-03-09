@@ -16,13 +16,17 @@ font-family:var(--font);
 line-height:1.6;
 }
 
-/* HEADER */
 
 header{
 background:var(--primary);
 color:white;
 padding:1.5em;
 text-align:center;
+}
+
+.logo{
+margin-bottom:0.5em;
+font-size:2em;
 }
 
 nav{
@@ -56,4 +60,28 @@ padding:3em 1em;
 width:50%;
 display:block;
 margin:1em auto;
+}
+
+.content{
+display:grid;
+grid-template-columns:repeat(2,auto);
+gap:2em;
+padding:2em;
+max-width:60em;
+margin:0 auto;
+}
+
+.card{
+border:0.1em solid #ccc;
+padding:2em;
+background:#fafafa;
+}
+
+.card p:first-letter{
+font-size:1.5em;
+font-weight:bold;
+}
+
+.card:nth-child(even){
+background:#f0f0f0;
 }
