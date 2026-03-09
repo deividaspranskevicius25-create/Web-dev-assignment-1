@@ -24,3 +24,36 @@ color:white;
 padding:1.5em;
 text-align:center;
 }
+
+nav{
+background:var(--secondary);
+}
+
+.nav-list{
+list-style:none;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:1em;
+}
+
+.nav-list li{
+padding:0.5em;
+}
+
+.nav-list a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:3em 1em;
+}
+
+.hero img{
+width:50%;
+display:block;
+margin:1em auto;
+}
