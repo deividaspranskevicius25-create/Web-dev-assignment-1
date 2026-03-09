@@ -85,3 +85,20 @@ font-weight:bold;
 .card:nth-child(even){
 background:#f0f0f0;
 }
+
+@media (max-width:48em){
+
+.nav-list{
+flex-direction:column;
+align-items:center;
+}
+
+.content{
+grid-template-columns:1fr;
+}
+
+.hero img{
+width:80%;
+}
+
+}
