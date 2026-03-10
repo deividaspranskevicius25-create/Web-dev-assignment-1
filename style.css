@@ -29,7 +29,7 @@ main{
 flex:1;
 }
 
-/* ---------------- HEADER / NAV ---------------- */
+/* HEADER / NAV  */
 
 header{
 background:var(--primary);
@@ -65,7 +65,7 @@ color:white;
 font-weight:bold;
 }
 
-/* ---------------- HAMBURGER ---------------- */
+/* HAMBURGER  */
 
 #menu-toggle{
 display:none;
@@ -78,7 +78,7 @@ color:white;
 cursor:pointer;
 }
 
-/* ---------------- HERO ---------------- */
+/* HERO  */
 
 .hero{
 text-align:center;
@@ -92,7 +92,7 @@ display:block;
 margin:1em auto;
 }
 
-/* ---------------- CONTENT GRID ---------------- */
+/*CONTENT GRID */
 
 section{
 text-align:center;
@@ -113,7 +113,7 @@ grid-column:1 / -1;
 text-align:center;
 }
 
-/* ---------------- CARDS ---------------- */
+/* CARDS */
 
 .card{
 border:0.1em solid #3a4d63;
@@ -138,7 +138,7 @@ font-weight:bold;
 background:#344f6b;
 }
 
-/* ---------------- PORTFOLIO GRID ---------------- */
+/* PORTFOLIO GRID  */
 
 .portfolio-grid{
 display:grid;
@@ -170,7 +170,7 @@ transform:translateY(-0.4em) scale(1.02);
 box-shadow:0 1em 2em rgba(0,0,0,0.6);
 }
 
-/* ---------------- FOOTER ---------------- */
+/* FOOTER */
 
 footer{
 background:#0f1c2b;
@@ -180,7 +180,7 @@ padding:1em;
 margin-top:auto;
 }
 
-/* ---------------- ANIMATIONS ---------------- */
+/* ANIMATIONS  */
 
 @keyframes fadeIn{
 from{
@@ -204,7 +204,7 @@ transform:translateY(0);
 }
 }
 
-/* ---------------- MOBILE ---------------- */
+/* MOBILE */
 
 @media (max-width:48em){
 
