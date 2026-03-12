@@ -239,3 +239,56 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* CONTACT PAGE */
+
+.content .card{
+grid-column:1 / -1;
+max-width:70em;   
+margin:0 auto;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:1em;
+max-width:55em;   
+margin:1em auto;
+}
+
+label{
+font-weight:bold;
+}
+
+input,
+textarea{
+width:100%;
+padding:0.6em;
+border-radius:0.3em;
+border:0.05em solid #ccc;
+font-family:var(--font);
+font-size:1em;
+}
+
+textarea{
+resize:vertical;
+}
+
+button{
+background:var(--accent);
+color:white;
+border:none;
+padding:0.7em;
+font-size:1em;
+font-weight:bold;
+border-radius:0.3em;
+cursor:pointer;
+width:100%;
+max-width:20em; 
+align-self:center;
+transition:opacity 0.3s ease;
+}
+
+button:hover{
+opacity:0.9;
+}
