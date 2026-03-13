@@ -304,3 +304,60 @@ border-radius:0.5em;
 background:#2c4159;
 text-align:center;
 }
+
+/* REPORT PAGE */
+
+.report-page{
+background:white;
+color:black;
+max-width:65em;        
+margin:3em auto;
+padding:3em 3.5em;
+border-radius:0.5em;
+box-shadow:0 0.8em 2em rgba(0,0,0,0.5);
+line-height:1.7;
+text-align:left;      
+}
+
+.report-page h2{
+text-align:left;
+margin-bottom:1.5em;
+}
+
+.report-page h3{
+margin-top:2em;
+margin-bottom:0.6em;
+font-weight:bold;
+text-align:left;
+}
+
+.report-page p{
+margin-bottom:1em;
+text-align:left;
+}
+
+.validation-grid{
+display:grid;
+grid-template-columns:repeat(3, 1fr);
+gap:1.5em;
+margin-top:2em;
+}
+
+.validation-grid img{
+width:100%;
+border-radius:0.3em;
+box-shadow:0 0.4em 1em rgba(0,0,0,0.3);
+}
+
+@media (max-width:48em){
+
+.report-page{
+padding:2em;
+max-width:90%;
+}
+
+.validation-grid{
+grid-template-columns:1fr;
+}
+
+}
